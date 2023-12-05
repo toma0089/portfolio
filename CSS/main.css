@@ -1,0 +1,91 @@
+/* CSS/main.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+    position: relative;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding: 10px;;
+}
+
+.square-button {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #8d8f91;
+    color: #fff;
+    text-align: center;
+    text-decoration: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+.square-button.float-right {
+    width: 100px;
+    height: 30px;
+    margin-left: auto; 
+    margin-right: 10px; 
+    border: none;
+    background-color: #8d8e8f;
+    color: #fff;
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+} 
+
+
+.image-container {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: auto; 
+    margin-left: auto; 
+    text-align: center;
+    position: relative;
+   
+}
+  
+
+.centered-paragraph {
+    position: relative;
+    margin-top: 20px; 
+    text-align: center;
+    padding: 20px;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    color: #333; 
+}
+
+.icon-container {
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.medium-icon {
+    width: 50px; 
+    height: 50px; 
+}
+.small-text {
+    font-size: 14px; 
+    margin-top: 5px; 
+}
