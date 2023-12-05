@@ -90,6 +90,7 @@ body {
     margin-top: 5px; 
 }
 @media only screen and (max-width: 600px) {
-    .centered-paragraph }
+}
+    .centered-paragraph
         top: 150px; /* 
-    }
+}
